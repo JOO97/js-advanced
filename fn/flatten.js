@@ -18,3 +18,11 @@ function flatten2(arr) {
 }
 
 console.log(flatten2(arr))
+
+//flat()
+// console.log(arr.flat(2))
+//flatMap map()=>flat()
+// const arr2 = arr.flatMap((item) => {
+//   return item
+// })
+// console.log(arr2)

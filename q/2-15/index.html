@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">xxx</div>
+    <button id="btn">button</button>
+    <script type="module">
+      //   const el = document.getElementsByClassName('app')
+      //   //   console.log(el, el.length)
+      //   console.log(el[0].innerHTML)
+      //   el[0].innerHTML = '<span>xxx</span>'
+
+      //绑定2个点击事件
+      const btn = document.getElementById('btn')
+      btn.addEventListener('click', function (e) {
+        console.log('event1', e)
+      })
+      btn.addEventListener('click', function (e) {
+        console.log('event2', e)
+      })
+      export {}
+    </script>
+  </body>
+</html>
