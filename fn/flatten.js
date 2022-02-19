@@ -26,3 +26,9 @@ console.log(flatten2(arr))
 //   return item
 // })
 // console.log(arr2)
+
+//flatMap的应用场景
+// const messages = ['Hello World', 'hello xxx', 'my name is xxx']
+// const words = messages.flatMap((item) => {
+//   return item.split(' ')
+// })
