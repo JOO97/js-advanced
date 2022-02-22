@@ -28,7 +28,7 @@ function createObj(o) {
 function inheritProperty(SubType, SuperType) {
   //1. 重写子类的原型： 创建一个原型为父类的原型的对象
   SubType.prototype = Object.create(SuperType.prototype)
-  //2. 手动添加construction属性
+  //2. 手动添加constructor属性
   Object.defineProperty(SubType.prototype, 'constructor', {
     enumerable: false,
     writable: true,
